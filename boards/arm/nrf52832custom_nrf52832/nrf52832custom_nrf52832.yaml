@@ -1,0 +1,19 @@
+identifier: nrf52832custom_nrf52832
+name: nRF52-Custom-NRF52832
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 64
+flash: 512
+supported:
+  - adc
+  - gpio
+  - counter
+  - nvs
+  - i2c
+  - pwm
+  - spi
+  - watchdog
